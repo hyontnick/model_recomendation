@@ -47,4 +47,3 @@ if st.button('Faire une prédiction'):
         st.write(f"La prédiction hybride pour l'utilisateur {user_id} et le film {movie_id} est {prediction:.2f}")
     else:
         st.write(f"Le film avec l'ID {movie_id} n'existe pas dans les données.")
-
